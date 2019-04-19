@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>HOME</title>
+	<link href="individual_project.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<br>
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="javascript:void(0)">BUILDS</a>
+					<div class="dropdown-content">
+						<a href="Wraith.html">WRAITH</a> <a href="Omega.html">OMEGA</a> <a href=
+						"Reign.html">REIGN</a>
+					</div>
+				</li>
+				<li>
+					<a href="Abouttest.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="Contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo"><img alt="Logo" src="logo.png" style="width:70% ; margin:0px auto;"></div>
+		<h1>Welcome to Cryptik Computers</h1><br>
+		<h2>"Where Custom meets Quality<br>
+		and Performance"</h2>
+		<div class="slide"><img alt="slide1" class="mySlides" src="slide1.jpg" style="width:100%">
+		<img alt="slide2" class="mySlides" src="slide2.jpg" style="width:100%"> <img alt="slide3" class=
+		"mySlides" src="slide3.jpg" style="width:100%"></div>
+		<script>
+		                                                       var myIndex = 0;
+		                                                       carousel();
+
+		                                                       function carousel() {
+		                                                       var i;
+		                                                       var x = document.getElementsByClassName("mySlides");
+		                                                       for (i = 0; i < x.length; i++) {
+		                                                       x[i].style.display = "none";  
+		                                                       }
+		                                                       myIndex++;
+		                                                       if (myIndex > x.length) {myIndex = 1}    
+		                                                       x[myIndex-1].style.display = "block";  
+		                                                       setTimeout(carousel, 3500);    
+		                                                       }
+		</script><br>
+	</div>
+</body>
+</html>

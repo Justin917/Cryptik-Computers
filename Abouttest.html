@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>ABOUT</title>
+	<link href="individual_project.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<br>
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="javascript:void(0)">BUILDS</a>
+					<div class="dropdown-content">
+						<a href="Wraith.html">WRAITH</a> <a href="Omega.html">OMEGA</a> <a href=
+						"Reign.html">REIGN</a>
+					</div>
+				</li>
+				<li>
+					<a href="Abouttest.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="Contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo"><img alt="Logo" src="logo.png" style="width:70% ; margin:0px auto;"></div>
+		<div class="list">
+			<h3>Our Services Include:</h3>
+			<ul>
+				<li>Custom Built Desktops</li>
+				<li style="list-style: none"><br></li>
+				<li>Repairs of Laptop and Desktops</li>
+				<li style="list-style: none"><br></li>
+				<li>Custom Designs and Parts upon request</li>
+			</ul>
+		</div><br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="builder">
+			<h3 style="color:#306EFF;">Meet the Technician's Build</h3>
+		</div>
+		<div class="slider"><img alt="slide1" class="mySlides" src="b1.JPG" style=
+		"width:100%"> <img alt="slide2" class="mySlides" src="b2.JPG" style="width:100%"> <img alt=
+		"slide3" class="mySlides" src="b4.JPG" style="width:100%"><img alt="slide3" class="mySlides" src=
+		"b5.JPG" style="width:100%"><img alt="slide3" class="mySlides" src="b6.JPG" style=
+		"width:100%"><img alt="slide3" class="mySlides" src="b7.JPG" style="width:100%"><img alt="slide3"
+		class="mySlides" src="b8.JPG" style="width:100%"></div>
+		<script>
+		                                                                   var myIndex = 0;
+		                                                                   carousel();
+
+		                                                                   function carousel() {
+		                                                                   var i;
+		                                                                   var x = document.getElementsByClassName("mySlides");
+		                                                                   for (i = 0; i < x.length; i++) {
+		                                                                   x[i].style.display = "none";  
+		                                                                   }
+		                                                                   myIndex++;
+		                                                                   if (myIndex > x.length) {myIndex = 1}    
+		                                                                   x[myIndex-1].style.display = "block";  
+		                                                                   setTimeout(carousel, 2000);    
+		                                                                   }
+		</script><br>
+		<h3 style="font-style:italic;color:red;">Specifications</h3>
+		<div class="list">
+			<ul>
+				<li><span class="bold">CPU:</span> Intel - Core i9-9900K 3.6 GHz 8-Core Processor</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">CPU Cooler:</span> Corsair - H115i PRO 55.4 CFM Liquid CPU Cooler</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Motherboard:</span> MSI - MEG Z390 ACE ATX LGA1151 Motherboard</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">RAM:</span> G.Skill - Trident Z RGB 16 GB (2 x 8 GB) DDR4-3200
+				Memory</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 1:</span> Samsung - 860 Evo 500 GB 2.5" Solid State Drive</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 2:</span> Samsung - 970 Pro 512 GB M.2-2280 Solid State
+				Drive</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Video Card:</span> MSI - GeForce RTX 2080 8 GB GAMING X TRIO Video
+				Card</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Case:</span> Corsair - Air 740 ATX Full Tower Case</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Power Supply:</span> EVGA - SuperNOVA P2 850 W 80+ Platinum Certified
+				Fully-Modular ATX Power Supply</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Operating System:</span> Microsoft - Windows 10 Home OEM 64-bit</li>
+				<li style="list-style: none; display: inline">
+					<ul></ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

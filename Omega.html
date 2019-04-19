@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>OMEGA</title>
+	<link href="individual_project.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<br>
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="javascript:void(0)">BUILDS</a>
+					<div class="dropdown-content">
+						<a href="Wraith.html">WRAITH</a> <a href="Omega.html">OMEGA</a> <a href=
+						"Reign.html">REIGN</a>
+					</div>
+				</li>
+				<li>
+					<a href="Abouttest.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="Contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo"><img alt="Logo" src="logo.png" style="width:70% ; margin:0px auto;"></div>
+		<div class="list">
+			<h3>The Omega</h3>
+			<p>The G11 Omega has an aggressive stance. With its sharp geometric angles and full RGB control
+			accents, the G11 is the perfect way to show off your custom built Cryptik Computer.</p>
+			<h3 style="color:red">Price:</h3>
+			<p style="font-size:20px">$1500</p>
+		</div><br>
+		<br>
+		<div class="builder">
+			<h3 style="color:#306EFF;">Build Pictures</h3>
+		</div>
+		<div class="slide" style="width:500px;"><img alt="slide1" class="mySlides" src="omega1.jpg"
+		style="width:100%"> <img alt="slide2" class="mySlides" src="omega2.jpg" style="width:100%">
+		<img alt="slide3" class="mySlides" src="omega3.jpg" style="width:100%"></div>
+		<script>
+		                                                                   var myIndex = 0;
+		                                                                   carousel();
+
+		                                                                   function carousel() {
+		                                                                   var i;
+		                                                                   var x = document.getElementsByClassName("mySlides");
+		                                                                   for (i = 0; i < x.length; i++) {
+		                                                                   x[i].style.display = "none";  
+		                                                                   }
+		                                                                   myIndex++;
+		                                                                   if (myIndex > x.length) {myIndex = 1}    
+		                                                                   x[myIndex-1].style.display = "block";  
+		                                                                   setTimeout(carousel, 2300);    
+		                                                                   }
+		</script><br>
+		<h3 style="font-style:italic;color:red;">Specifications</h3>
+		<div class="list">
+			<ul>
+				<li><span class="bold">CPU:</span> 9th Generation Intel® Core™ i5-9600K Processor (9 MB Cache,
+				3.70-4.60GHz, 6 core | 6 thread ) 95W</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">CPU Cooler:</span> Corsiar Hydro Series™ H115i PRO RGB 280mm Liquid CPU
+				Cooler</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Motherboard:</span> MSI MPG Z390 Gaming Plus (Intel® Z390 Chipset | 4x
+				DIMM, 2x PCI-EX16, 2x M.2 Slot | REAR PORTS - 1x USB 3.1 Gen2 Type C, 1x USB 3.1 Gen2 Type A,
+				2x USB 3.1 Gen1 Type A, 2x USB 2.0, DVI-D, HDMI)</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">RAM:</span> 16GB DDR4 2666MHz (2x8GB) G.SKILL RipJaws V Dual
+				Channel</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 1:</span> 500GB Samsung 970 EVO PLUS M.2 NVMe Solid State Drive
+				(Seq. Read 3500MB/s | Seq. Write 3200MB/s )</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 2:</span> 1TB Western Digital BLUE SATA III Solid State Disk
+				Drive</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Video Card:</span> NVIDIA® GeForce® RTX™ 2070 8 GB GDDR6</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Case:</span> G11 Omega Chassis</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Power Supply:</span> 850W EVGA SuperNOVA 850 G2 Gold Power Supply
+				Unit</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Operating System:</span> Microsoft® Windows® 10 Home (64-Bit)</li>
+				<li style="list-style: none; display: inline">
+					<ul></ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

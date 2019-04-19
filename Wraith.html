@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>WRAITH</title>
+	<link href="individual_project.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<br>
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="index.html">HOME</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="javascript:void(0)">BUILDS</a>
+					<div class="dropdown-content">
+						<a href="Wraith.html">WRAITH</a> <a href="Omega.html">OMEGA</a> <a href=
+						"Reign.html">REIGN</a>
+					</div>
+				</li>
+				<li>
+					<a href="Abouttest.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="Contact.html">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo"><img alt="Logo" src="logo.png" style="width:70% ; margin:0px auto;"></div>
+		<div class="list">
+			<h3>The Wraith</h3>
+			<p>This Mid-tower chassis features a tempered glass panel and translucent front panel to
+			showcase all of the components and fans while still providing unrivaled cooling support.</p>
+			<h3 style="color:red">Price:</h3>
+			<p style="font-size:20px">$1200</p>
+		</div><br>
+		<br>
+		<div class="builder">
+			<h3 style="color:#306EFF;">Build Pictures</h3>
+		</div>
+		<div class="slide" style="width:500px;"><img alt="slide1" class="mySlides" src="wraith1.jpg"
+		style="width:100%"> <img alt="slide2" class="mySlides" src="wraith2.jpg" style="width:100%">
+		<img alt="slide3" class="mySlides" src="wraith3.jpg" style="width:100%"></div>
+		<script>
+		                                                                   var myIndex = 0;
+		                                                                   carousel();
+
+		                                                                   function carousel() {
+		                                                                   var i;
+		                                                                   var x = document.getElementsByClassName("mySlides");
+		                                                                   for (i = 0; i < x.length; i++) {
+		                                                                   x[i].style.display = "none";  
+		                                                                   }
+		                                                                   myIndex++;
+		                                                                   if (myIndex > x.length) {myIndex = 1}    
+		                                                                   x[myIndex-1].style.display = "block";  
+		                                                                   setTimeout(carousel, 2300);    
+		                                                                   }
+		</script><br>
+		<h3 style="font-style:italic;color:red;">Specifications</h3>
+		<div class="list">
+			<ul>
+				<li><span class="bold">CPU:</span> 8th Generation Intel® Core™ Coffee Lake i3-8100 ( 6M Cache,
+				3.60 GHz, 4 core | 4 thread ) Processor</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">CPU Cooler:</span> Cooler Master Hyper 212 EVO 120mm Fan w/ 4
+				Heatpipes</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Motherboard:</span> ASUS STRIX Z390-H GAMING (Intel® Z390 Chipset | 4x
+				DIMM, 2x PCI-EX16, 2x M.2 Slot | REAR PORTS - 4x USB 3.1 Gen 2 Type-A, 2x USB 3.1 Gen 1, 1x
+				Optical S/PDIF out, 5x Audio jack(s), DisplayPort, HDMI, LAN (RJ45) port)</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">RAM:</span> 8GB DDR4 2666MHz (2x4GB) G.SKILL RipJaws V</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 1:</span> 256GB Certified M.2 PCIe NVMe SSD (Seq. Read 2000MB/s,
+				Seq. Write 1750MB/s)</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Storage 2:</span> 1TB 5400rpm SATA III Hard Drive</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Video Card:</span> NVIDIA® GeForce® RTX™ 2060 6GB GDDR6</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Case:</span> Corsair - Crystal 570X Chassis</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Power Supply:</span> EVGA 600W Power Supply Unit</li>
+				<li style="list-style: none"><br></li>
+				<li><span class="bold">Operating System:</span> Microsoft® Windows® 10 Home (64-Bit)</li>
+				<li style="list-style: none; display: inline">
+					<ul></ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
